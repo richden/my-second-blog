@@ -121,3 +121,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+# added 20/02/17
+# http://stackoverflow.com/questions/29349801/django-blog-post-image
+MEDIA_ROOT = (os.path.join(BASE_DIR, "media"))
+
+
+MEDIA_URL = '/media/'
